@@ -1,8 +1,12 @@
 {
   "dependencies": {
-    "truffle": "^5.5.26"
+    "@truffle/hdwallet-provider": "^2.0.13",
+    "dotenv": "^16.0.1",
+    "truffle": "^5.1.65"
   },
   "scripts": {
-    "test": "truffle test"
+    "test": "truffle test",
+    "build": "truffle compile",
+    "deploy": "truffle migrate --network goerli"
   }
 }

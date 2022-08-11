@@ -1,2 +1,5 @@
-verifier/node_modules
-verifier/package-lock.json
+.env 
+
+build
+node_modules
+package-lock.json
