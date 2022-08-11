@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "truffle": "^5.5.26"
+  },
+  "scripts": {
+    "test": "truffle test"
+  }
+}
